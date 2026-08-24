@@ -41,7 +41,7 @@ The dashboard allows users to:
 
 The original data source was an Excel workbook.
 
-Power Query was used to prepare the dataset before loading it into the Power BI data model.
+Power Query was used to prepare and transform the dataset before loading it into the Power BI data model.
 
 Main transformation steps included:
 
@@ -80,31 +80,31 @@ The report contains five analytical sections:
 
 Provides a high-level view of the main absenteeism indicators.
 
-![Overview](screenshots/overview.jpg)
+![Overview](screenshots/Overview.jpg)
 
 ### Trend Analysis
 
 Shows the evolution of absenteeism events and lost days across the months.
 
-![Trend Analysis](screenshots/trend-analysis.jpg)
+![Trend Analysis](screenshots/Trend%20Analysis.jpg)
 
 ### KPI Analysis
 
 Provides a detailed view of the main performance indicators.
 
-![KPI Analysis](screenshots/kpi-analysis.jpg)
+![KPI Analysis](screenshots/KPI%20Analysis.jpg)
 
 ### Events & Lost Days
 
 Analyzes the relationship between absenteeism events and the number of lost days.
 
-![Events & Lost Days](screenshots/events-lost-days.jpg)
+![Events & Lost Days](screenshots/Overview2.jpg)
 
 ### Event Impact Analysis
 
 Provides additional analysis of the impact associated with different event categories.
 
-![Event Impact Analysis](screenshots/event-impact-analysis.jpg)
+![Event Impact Analysis](screenshots/Event%20Impact%20Analysis.jpg)
 
 ---
 
@@ -141,7 +141,7 @@ The project demonstrates the complete BI workflow:
 
 **Excel → Power Query → Data Model → DAX → Power BI Dashboard**
 
-It showcases how raw structured data can be transformed into an interactive analytical solution designed to support business decision-making.
+It showcases how structured data can be transformed into an interactive analytical solution designed to support business decision-making.
 
 ---
 
