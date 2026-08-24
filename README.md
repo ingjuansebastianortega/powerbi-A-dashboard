@@ -80,31 +80,31 @@ The report contains five analytical sections:
 
 Provides a high-level view of the main absenteeism indicators.
 
-![Overview](screenshots/overview.png)
+![Overview](screenshots/overview.jpg)
 
 ### Trend Analysis
 
 Shows the evolution of absenteeism events and lost days across the months.
 
-![Trend Analysis](screenshots/trend-analysis.png)
+![Trend Analysis](screenshots/trend-analysis.jpg)
 
 ### KPI Analysis
 
 Provides a detailed view of the main performance indicators.
 
-![KPI Analysis](screenshots/kpi-analysis.png)
+![KPI Analysis](screenshots/kpi-analysis.jpg)
 
 ### Events & Lost Days
 
 Analyzes the relationship between absenteeism events and the number of lost days.
 
-![Events & Lost Days](screenshots/events-lost-days.png)
+![Events & Lost Days](screenshots/events-lost-days.jpg)
 
 ### Event Impact Analysis
 
 Provides additional analysis of the impact associated with different event categories.
 
-![Event Impact Analysis](screenshots/event-impact-analysis.png)
+![Event Impact Analysis](screenshots/event-impact-analysis.jpg)
 
 ---
 
