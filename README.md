@@ -1,80 +1,152 @@
-# Powerbi-A-dashboard
-# Employee Absenteeism & Incapacity Dashboard
+# Employee Absenteeism & Lost Days Dashboard
 
-## 📊 Overview
+## 📊 Project Overview
 
-Interactive Power BI dashboard designed to monitor employee absenteeism and incapacity indicators, allowing users to analyze the number of incapacity events and lost days across different periods and categories.
+Interactive Business Intelligence dashboard developed in Power BI to analyze employee absenteeism events and lost days over time.
 
-The dashboard provides a visual overview of key indicators and enables users to explore trends through interactive filters.
+The project transforms structured Excel data into an interactive reporting solution, allowing users to explore key performance indicators, trends, event categories and lost days through dynamic filters.
 
-## 🎯 Objective
+> **Note:** This portfolio version uses anonymized and synthetic data. The original business data has not been published.
 
-The objective of this project was to transform raw data from Excel into an interactive Business Intelligence dashboard that facilitates the monitoring and analysis of absenteeism and incapacity indicators.
+---
+
+## 🎯 Business Objective
+
+The main objective is to provide a centralized and interactive view of absenteeism indicators to support data-driven analysis and monitoring.
+
+The dashboard allows users to:
+
+* Monitor total absenteeism events.
+* Analyze lost days associated with different event categories.
+* Identify monthly trends.
+* Compare different employee types.
+* Analyze semester-level performance.
+* Explore the relationship between events and lost days.
+
+---
 
 ## 🛠️ Tools & Technologies
 
-* Power BI
-* Power Query
-* DAX
-* Microsoft Excel
+* **Power BI**
+* **Power Query**
+* **DAX**
+* **Microsoft Excel**
 * Data Modeling
 * Data Visualization
+* Business Intelligence
+
+---
 
 ## 🔄 Data Preparation
 
-The source data was provided in Excel format and processed using Power Query.
+The original data source was an Excel workbook.
 
-Main activities included:
+Power Query was used to prepare the dataset before loading it into the Power BI data model.
 
-* Data cleaning and preparation
-* Transformation of source fields
-* Standardization of data
-* Preparation of datasets for analysis
-* Creation of relationships between relevant data fields
+Main transformation steps included:
 
-## 📐 DAX & Calculations
+* Data type transformation.
+* Handling missing and invalid values.
+* Data cleaning and standardization.
+* Column organization.
+* Creation of analytical categories.
+* Reshaping data using unpivot transformations.
+* Preparation of monthly and semester-level indicators.
 
-Several DAX measures were created to calculate and monitor key indicators, including:
+---
 
-* Number of incapacity events
-* Number of lost days
-* Period-based indicators
-* Aggregated performance metrics
+## 📐 DAX & KPI Development
+
+Several DAX measures were created to calculate and monitor key indicators.
+
+Examples include:
+
+* Total absenteeism events.
+* Total lost days.
+* Monthly event counts.
+* Lost days by event category.
+* Semester-level indicators.
+* Dynamic metrics based on selected filters.
+
+The measures were designed to interact with the dashboard's filtering and navigation features.
+
+---
 
 ## 📊 Dashboard Features
 
-The dashboard allows users to analyze:
+The report contains five analytical sections:
 
-* Total incapacity events
-* Total lost days
-* Monthly trends
-* Different incapacity categories
-* Period comparisons
-* Interactive filtering by period and category
+### Overview
 
-## 🧩 Dashboard Structure
+Provides a high-level view of the main absenteeism indicators.
 
-The report includes multiple analytical views focused on:
+![Overview](screenshots/overview.png)
 
-* Key indicators
-* Trend analysis
-* Events vs. lost days
-* Relationship between events and lost days
+### Trend Analysis
 
-## 📸 Dashboard Preview
+Shows the evolution of absenteeism events and lost days across the months.
 
-![Dashboard Preview](screenshots/dashboard.png)
+![Trend Analysis](screenshots/trend-analysis.png)
 
-## 💡 Key Skills Demonstrated
+### KPI Analysis
 
-* Power BI dashboard development
-* Power Query data transformation
-* DAX measures
-* Data modeling
-* KPI development
-* Interactive data visualization
-* Business-oriented data analysis
+Provides a detailed view of the main performance indicators.
 
-## 🔒 Data Disclaimer
+![KPI Analysis](screenshots/kpi-analysis.png)
 
-The original project was developed using organizational data. To protect confidentiality, this public portfolio version should use anonymized or synthetic data and should not contain confidential information.
+### Events & Lost Days
+
+Analyzes the relationship between absenteeism events and the number of lost days.
+
+![Events & Lost Days](screenshots/events-lost-days.png)
+
+### Event Impact Analysis
+
+Provides additional analysis of the impact associated with different event categories.
+
+![Event Impact Analysis](screenshots/event-impact-analysis.png)
+
+---
+
+## 🎛️ Interactive Features
+
+The dashboard includes interactive controls for:
+
+* Semester selection.
+* Employee type filtering.
+* Monthly analysis.
+* Dynamic KPI updates.
+* Navigation between analytical sections.
+
+---
+
+## 🧩 Skills Demonstrated
+
+This project demonstrates practical experience in:
+
+* Power BI dashboard development.
+* Power Query transformations.
+* DAX measure creation.
+* Data modeling.
+* KPI design.
+* Interactive reporting.
+* Data visualization.
+* Business-oriented data analysis.
+
+---
+
+## 📈 Key Takeaways
+
+The project demonstrates the complete BI workflow:
+
+**Excel → Power Query → Data Model → DAX → Power BI Dashboard**
+
+It showcases how raw structured data can be transformed into an interactive analytical solution designed to support business decision-making.
+
+---
+
+## 🔒 Data Privacy
+
+This repository does not contain confidential organizational information.
+
+The portfolio version uses synthetic/anonymized data and has been adapted specifically for demonstration purposes.
